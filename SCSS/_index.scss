@@ -1,0 +1,173 @@
+/*Sección index*/
+
+#logoNav {
+	float: left;
+}
+
+#bodyIndex {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	color: #FFFFFF;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	background-color: #000000;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.carouselPosition {
+	position: relative;
+	float: right;
+}
+
+div h3 {
+	font-family: 'Quicksand', sans-serif;
+	color: #FFFFFF;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+div p {
+	font-family: 'Quicksand', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	font-weight: 300;
+
+}
+
+.imgCarousel {
+	max-height: 750px;
+	width: 100%;
+	z-index: 0;	
+}
+
+#logoDos {
+  	margin-top: 23%;
+  	margin-left: 4%;
+}
+
+@media (max-width: 576px)  {
+	#logoDos {
+		position: relative;
+		display: flex column;
+		vertical-align: middle;
+		align-content: center;
+		width: 600px;
+		height: auto;
+		margin-left: 30%;
+	}
+	
+}
+
+@media (max-width: 768px)  {
+	#logoDos {
+		margin-top: 23%;
+		width: 150px;
+		height: auto;
+	}
+	
+}
+
+@media (max-width: 992px)  {
+	#logoDos {
+		margin-top: 23%;
+		width: 200px;
+		height: auto;
+	}
+	
+}
+
+.animate__backInLeft {
+	animation-duration: 2s;
+}
+
+#indexText {
+	width: 400px;
+  	margin-left: 4%;
+  	color: #FFFFFF;
+  	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+
+@media (max-width: 576px) {
+	#indexText {
+		width: 400px;
+		position: relative;
+	  	margin-left: 30%;
+	  	color: #FFFFFF;
+	  	font-family: 'Quicksand', sans-serif;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: 500;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#indexText {
+		width: 150px;
+		height: auto;
+		position: relative;
+	  	color: #FFFFFF;
+	  	font-family: 'Quicksand', sans-serif;
+		font-size: 0.7rem;
+		line-height: 1.5rem;
+		font-weight: 500;
+
+	}
+	
+}
+
+@media (max-width: 992px) {
+	#indexText {
+		width: 200px;
+		height: auto;
+		position: relative;
+	  	color: #FFFFFF;
+	  	font-family: 'Quicksand', sans-serif;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: 500;
+
+	}
+	
+}
+
+.fadeText {
+	animation-duration: 5s;
+	animation-name: fadetext;
+}
+
+@keyframes fadetext {
+	0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#footer {
+	height: 40px;
+	width: 100%;
+	background: linear-gradient(to top, black 50%, transparent);
+	opacity: 70%;
+	position: fixed;
+	z-index: 1;
+	bottom: 0px;
+	font-family: 'Quicksand', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+}

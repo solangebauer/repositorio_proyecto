@@ -1,0 +1,80 @@
+/*Sección Servicios*/
+@each $article in produccionGrafica, web, videos, localesComerciales {
+	.#{$article} {
+		background-color: #333333;
+		background-size: cover;
+		height: 500px;
+		background-position: center;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 5px 5px 10px #000000;
+	}
+}
+
+
+#serviciosSection {
+	width: 100%;
+	height: 600px;
+	padding: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+@media (max-width: 768px) {
+	#serviciosSection {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		vertical-align: middle;
+		align-content: center;
+	}
+}
+
+.servicios__title {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 5rem;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.servicios__title {
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 600;
+		font-size: 1.2rem;
+		line-height: 2rem;
+		color: #FFFFFF;
+	}
+}
+
+.servicios__text {
+	width: 200px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.servicios__text {
+		width: 200px;
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
+		color: #FFFFFF;
+		line-height: 1.5rem;
+	}
+}
+
+/*no pude centrar la imagen en cada article y le puse el margen que figura abajo, aunque sé que no es la forma correcta de hacerlo*/
+
+.servicios__img {
+	margin-left: 50px;
+}
