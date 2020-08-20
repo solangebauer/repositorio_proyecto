@@ -34,8 +34,7 @@ div p {
   font-weight: 300; }
 
 .imgCarousel {
-  max-height: 750px;
-  width: 100%;
+  max-height: 100%;
   z-index: 0; }
 
 #logoDos {
