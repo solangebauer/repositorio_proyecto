@@ -1,0 +1,48 @@
+/*Estilos generales*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+	background-image: linear-gradient(to bottom, black 50%, transparent) !important;
+	min-height: 100px;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 5rem;
+	position: fixed;
+	z-index: 2;
+}
+
+.nav-link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	background-color: #333333;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+
+.nav-link {
+	transition: background-color .5s;
+}
+
+#logo-header {
+	text-decoration: none;
+}
+
+.navbar-toggler {
+	color: #FFFFFF;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
